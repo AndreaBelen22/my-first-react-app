@@ -1,31 +1,15 @@
-import logo from './logo.svg';
 import './App.css';
 import Title from './components/Title'
+import Pokemon from "./components/Pokemon"
 
 
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Hello <strong>World!</strong>
-        </a>
-        <main>
-  <Title content="Some Simple Title" />
-</main>
-      </header>
-    </div>
-  );
-}
-
-export default App;
+      <main>
+        <Title content="Some example title" />
+        <Pokemon />
+      </main>
+      </div>
+  );};
