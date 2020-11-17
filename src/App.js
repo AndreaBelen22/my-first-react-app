@@ -20,7 +20,9 @@ function App() {
         >
           Hello <strong>World!</strong>
         </a>
-        <Title />
+        <main>
+  <Title content="Some Simple Title" />
+</main>
       </header>
     </div>
   );
