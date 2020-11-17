@@ -1,6 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
-import Title from './components/title'
+import Title from './components/Title'
 
 
 
@@ -20,6 +20,7 @@ function App() {
         >
           Hello <strong>World!</strong>
         </a>
+        <Title />
       </header>
     </div>
   );
