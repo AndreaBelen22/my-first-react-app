@@ -12,33 +12,3 @@ export default function Pokemon(props) {
   );
 }
 
-const allPokemons = [
-  {
-name: "Charizard",
-weight:"90Kg",
-awesome: true,
-terrifying: false,
-abilities: ('blaze','Solar Power','Tough claws', 'Drought')},
-{
-  name: "Bulbasaur",
-weight:"6.9Kg",
-awesome: true,
-terrifying: false,
-abilities: ('overgrow','Chlorophyll')
-},
-{
-  name: "Mewtwo",
-weight:"122Kg",
-awesome: true,
-terrifying: true,
-abilities: ('Pressure', 'Unnerve', 'Steadfast', 'Insomnia')
-},
-{
-  name: "Mega beedrill",
-weight:"65kg",
-awesome: false,
-terrifying: true,
-abilities: ('Intimidate', 'Unnerve')
-}
-]
-
